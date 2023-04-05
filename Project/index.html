@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/about-us.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>KijiBay</title>
+</head>
+<body>
+    <!------------- Nav section ------------->
+    <header>
+        <div class="logo">
+            <a href="#home"> 
+            <img src="images/Logo.png"alt="Logo">
+            </a>
+            <p>KijiBay</p>
+        </div>
+        <i class="fa-solid fa-bars" onclick="changeIcon(this)"></i>
+        <ul class="menuitems">
+            <li><a href="#home">home</a></li>
+            <li><a href="#about-us">about us</a></li>
+            <li><a href="#shop">shop</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#" class="card"><img src="images/cart.png" width="30px" height="30px" alt=""></a></li>
+        </ul>
+    </header>
+    <!------------- Home section ------------->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1><span>Looking</span> to <br> your style</h1>
+            <h4>Virtual Shop</h4>
+            <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <br>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+    </section>
+
+    <!---------- Product Slider Section ---------->
+    <section class="product"> 
+        <h3 class="product-category">Best Selling</h3>
+        <hr>
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/pexels-david-bartus-297933.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Shirt</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/t-shirt.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">T-Shirt</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$10</span><span class="actual-price">$20</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/suit.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Suit</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$30</span><span class="actual-price">$60</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/pexels-mnz-1598507.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Djean</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$15</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/pexels-pixabay-267301.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Classic Shoes</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/woman-bag.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">woman bag
+                    </h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/backpack.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Backpack</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/pexels-terje-sollie-298863.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/cap.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Cap</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="images/card10.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">buy | add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------- Shop Now Txt ---------->
+    <div id="shop">
+        <h3>Shop Now</h3>
+
+    </div>
+
+    <!---------- Collections Section ---------->
+    <section class="collection-container">
+        <a href="#women-products" class="collection">
+            <img src="images/micheile-henderson-FpPcoOAk5PI-unsplash.jpg" alt="">
+            <p class="collection-title">Women <br> Apparels</p>
+        </a>
+        <a href="" class="collection">
+            <img src="images/keagan-henman-xPJYL0l5Ii8-unsplash.jpg" alt="">
+            <p class="collection-title">Men <br> Apparels</p>
+        </a>
+        <!--<a href="" class="collection">
+            <img src="images/accessories-collection.png" alt="">
+            <p class="collection-title">accessories</p>-->
+        </a>
+    </section>
+
+    <!---------- Our Product Section ---------->
+    <section id="featured">
+        <div class="container">
+            <h3>Our Products</h3>
+            <hr>
+            <p>Here you can check new products with fair price on Kijibay.</p>
+        </div>
+        <div class="container2">
+            <div class="product2">
+                <img src="images/product1.png" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt rayé</h5>
+                    <h4 class="p-price">$19,99</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product2">
+                <img src="images/product2.png" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt "le parfait by JULES"</h5>
+                    <h4 class="p-price">$15,99</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product2">
+                <img src="images/product3.png" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt basique col rond</h5>
+                    <h4 class="p-price">$9,99</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product2">
+                <img src="images/product4.png" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt imprimé GOOD</h5>
+                    <h4 class="p-price">$12,99</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product2">
+                <img src="images/product5.png" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt colorblock</h5>
+                    <h4 class="p-price">$40.00</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+        
+            <div class="product2">
+                <img src="images/product6.png" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt colorblock</h5>
+                    <h4 class="p-price">$19,99</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product2">
+                <img src="images/product7.png" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt basique col v</h5>
+                    <h4 class="p-price">$9,99</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product2">
+                <img src="images/product8.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt de noël enfant</h5>
+                    <h4 class="p-price">$5.00</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product2">
+                <img src="images/product9.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt col rond licence Tour de France</h5>
+                    <h4 class="p-price">$19,99</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product2">
+                <img src="images/product10.jpg" alt="">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Tee shirt région hauts-de-france </h5>
+                    <h4 class="p-price">$12,99</h4>
+                    <button class="buy-btn">Buy Now</button>
+            </div>
+        </div> 
+    <!-- Boutons précédents et suivants -->
+    <div class="container">
+        <div class="col-12 text-center">
+            <button class="btn-prev">Previous</button>
+                <span class="carousel-position"></span>
+            <button class="btn-next">Next</button>
+        </div>
+     </div>
+    </section>  
+
+    <!---------- About Us ---------->
+    <section id="about-us">
+        <div id="about-us-wrapper">
+          <h2 id="about-us-title" class="stitle">ABOUT US</h2>
+          <div id="about-us-content">
+            <div id="about-us-image">
+              <img src="images/ali.png " alt="Image de l'équipe Kijibay">
+            </div>
+            <div id="about-us-text">
+                <p>Nous sommes une entreprise eCommerce passionnée par la création d'une expérience d'achat en ligne exceptionnelle pour nos clients.</p>
+                <p>Chez Kijibay, nous sommes déterminés à offrir à nos clients des produits de haute qualité à des prix abordables. Nous travaillons en étroite collaboration avec des fournisseurs de confiance pour nous assurer que chaque produit que nous vendons répond aux normes les plus élevées de qualité et de durabilité.</p>
+                <p>Nous offrons une expérience d'achat personnalisée, nous sommes là pour répondre à toutes vos questions et rendre votre expérience d'achat aussi agréable que possible.</p>
+            </div>
+          </div>
+        </div>
+      </section>   
+
+    <!---------- Footer ---------->
+      <footer>
+        <div class="container" id="contact">
+            <div>
+              <h5>CONTACT</h5>
+              <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Rue des Vêtements, 75000 Oran, Algerie</li>
+                <li><i class="fas fa-phone"></i> +213 1 23 45 67 89</li>
+                <li><i class="fas fa-envelope"></i> contact@kijibay.com</li>
+              </ul>
+            </div>
+            <div>
+              <h5>Abonnez-vous à notre newsletter</h5>
+              <p>Recevez des mises à jour sur les nouveaux produits, les offres spéciales et les événements de Kijibay.</p>
+              <form>
+                  <label for="newsletter-email">Email :</label>
+                  <input type="email" id="newsletter-email" placeholder="Entrez votre adresse email">
+                <button type="submit" class="btn">S'abonner</button>
+              </form>
+            </div>
+            <div class="final">
+              <p>&copy; 2023 Kijibay. Tous droits réservés. | Designed by @Ali_Boubou</p>
+            </div>
+        </div>
+      </footer>
+      
+               
+    <script type="text/javascript" src="java-script/script.js"></script>
+</body>
+</html>
+

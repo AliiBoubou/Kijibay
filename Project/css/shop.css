@@ -1,0 +1,131 @@
+#shop h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 2rem;
+  /*border-bottom: 5px solid #f57224;*/
+  width: 17rem;
+  margin: 0 auto;
+  width: fit-content;
+  position: relative;
+}
+#shop h3::after {
+  content: "";
+  height: 5px;
+  width: 3rem;
+  position: absolute;
+  bottom: -5px;
+  background: #f57224;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .5s;
+}
+#shop h3:hover::after {
+  width: 100%;
+}
+#featured .container h3:hover + hr {
+  width: 260px;
+}
+h3 {
+  font-size: 2.4rem;
+  width: fit-content;
+}
+#featured .container hr {
+  width: 60px;
+  height: 5px;
+  background-color: #fb774b;
+  transition: .5s ;
+}
+#featured {
+  margin: 3rem;
+}
+#featured .container {
+  margin-top: 1rem;
+  padding: 1rem 0;
+  width: 100%;
+}
+#featured .container p {
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  row-gap: 1em;
+  justify-content: center;
+}
+.product2 {
+  margin: 0 15px 2px 15px;
+  flex: 0 0 auto;
+  width: 90%;
+  max-width: 280px;
+  text-align: center;
+}
+.product2 img {
+  width: 100%;
+}
+.product2:hover img {
+  opacity: 0.7;
+}
+.star {
+  padding: 10px 0 0;
+}
+.star i {
+  font-size: 0.8rem;
+  color: goldenrod;
+}
+.p-name {
+  font-size: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.p-price {
+  font-size: 1.25rem;
+  color: #f57224;
+  margin-bottom: 10px;
+}
+.buy-btn {
+  background: #fb774b;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1.25rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s all;
+}
+.product2:hover .buy-btn {
+  transform: translateY(0);
+  opacity: 1;
+  display: unset;
+}
+
+/* Boutons précédents et suivants */
+.btn-prev,
+.btn-next {
+  font-size: 1.2rem;
+  font-weight: 650;
+  background-color: #fff;
+  border: 2px solid #757171;
+  color: black;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  background-color: #f57224;
+  color: #fff;
+  border: 2px solid #f57224;
+}
+
+.carousel-position {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 1rem;
+  color: #000;
+}
